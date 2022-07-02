@@ -53,6 +53,7 @@ footer nav ul li  {
 @media screen and (max-width: 800px) {
 	.container {display: flex;
         flex-direction: column;
+        align-items: center;
    
 	}}
 
@@ -68,3 +69,91 @@ footer nav ul li  {
                     padding: 0.5rem;
                 margin-left: 0; 
             font-size: 14px;}}
+
+            @media only screen and (max-width: 880px) {
+                .evento .card .p-5 .m-3 {
+                  display: flex;
+                  justify-content: center;
+                  flex-wrap: wrap;
+                }
+              }
+              
+              @media screen and (max-width: 830px) {
+                .row {
+                  display: flex;
+                  flex-direction: column;
+                }
+              
+                .row aside img {
+                  width: 150px;
+                }
+              
+                .row aside ul {
+                  margin-bottom: 0 !important;
+                }
+              }
+              @media screen and (max-width: 666px) {
+                .btn-dark {
+                  width: 80px;
+                }
+                .btn-secondary {
+                  width: 80px;
+                }
+                #form-evento input {
+                  width: 280px;
+                }
+                #form-evento textarea {
+                  width: 280px;
+                }
+                #form-evento label {
+                  width: 180px;
+                }
+              }
+              
+              @media screen and (max-width: 540px) {
+                .table {
+                  width: 100%;
+                  display: flex;
+                  flex-wrap: wrap;
+                }
+                tbody {
+                  width: 700px;
+                }
+                #excluir {
+                  width: 280px;
+                }
+                .btn {
+                  width: 80px;
+                }
+                #acao {
+                  display: none;
+                }
+                .nav-footer {
+                  display: flex;
+                  flex-direction: column;
+                  background-color: #fff;
+                }
+              
+                .btn-primary {
+                  width: 200px;
+                }
+              
+                #tabela-controle {
+                  width: 100%;
+                }
+              
+                .btn-secondary2 {
+                  width: 80px;
+                }
+                #botao-ver-todos {
+                  width: 110px;
+                }
+              
+                #painel {
+                  width: 110%;
+                }
+              
+                #titulos {
+                  padding-left: 75px;
+                }
+              } ;
